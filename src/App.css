@@ -12,7 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/* app-header css*/
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,7 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+/* app-link css*/
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+/*.......................................................................................................*/
+* {
+  text-align: center;
+  background-color:rgb(209, 195, 195);
+  color: rgb(8, 7, 7);
+}
+
+input{
+  border-color: rgb(230, 224, 224);
+  outline: rgb(172, 95, 95);
+}
+#login{
+  background-color: rgb(102, 73, 73);
 }
